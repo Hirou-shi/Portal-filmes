@@ -2,14 +2,11 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
-import App from "./App.jsx";
 import './index.css';
 import MovieListPage from './pages/MovieListPage.jsx';
 import Home from './pages/Home.jsx';
 import MoviesByGenrePage from './pages/MoviesByGenrePage.jsx';
 import MovieDatielPage from './pages/MovieDetailPage.jsx';
-import MovieLi
 
 
 const router = createBrowserRouter([{
@@ -42,7 +39,7 @@ const router = createBrowserRouter([{
     }
   ]
 
-])
+}])
 
 
 
